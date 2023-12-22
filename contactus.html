@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanniyakumari Talent</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700" rel="stylesheet" type="text/css">
+  <!--
+    Boostrap
+  -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="./style.css" rel="stylesheet" >
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <title>Responsive Contact Us Page Design using Html CSS</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+      <!-- Font Awesome CDN -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+     
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">KK Talent</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">KK Talent</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="About.html" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="Institution.html" class="navbar-link" data-nav-link>Institutions</a>
+          </li>
+
+          <li>
+            <a href="Activities.html" class="navbar-link" data-nav-link>Activities</a>
+          </li>
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Competition</a>
+          </li>
+
+
+          <li>
+            <a href="News.html" class="navbar-link" data-nav-link>News</a>
+          </li>
+
+          <li>
+            <a href="contactus.html" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+ 
+      <section id="section-wrapper">
+          <div class="box-wrapper">
+              <div class="info-wrap">
+                  <h2 class="info-title">Contact Information</h2>
+                  <h3 class="info-sub-title">Fill up the form and our Team will get back to you within 24 hours</h3>
+                  <ul class="info-details">
+                      <li>
+                          <i class="fas fa-phone-alt"></i>
+                          <span>Phone:</span> <a href="tel:+ 1235 2355 98">+ 1235 2355 98</a>
+                      </li>
+                      <li>
+                          <i class="fas fa-paper-plane"></i>
+                          <span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a>
+                      </li>
+                      <li>
+                          <i class="fas fa-globe"></i>
+                          <span>Website:</span> <a href="#">yoursite.com</a>
+                      </li>
+                  </ul>
+                  <ul class="social-icons">
+                      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                  </ul>
+              </div>
+              <div class="form-wrap">
+                  <form action="#" method="POST">
+                      <h2 class="form-title">Send us a message</h2>
+                      <div class="form-fields">
+                          <div class="form-group">
+                              <input type="text" class="fname" placeholder="First Name">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="lname" placeholder="Last Name">
+                          </div>
+                          <div class="form-group">
+                              <input type="email" class="email" placeholder="Mail">
+                          </div>
+                          <div class="form-group">
+                              <input type="number" class="phone" placeholder="Phone">
+                          </div>
+                          <div class="form-group">
+                              <textarea name="message" id="" placeholder="Write your message"></textarea>
+                          </div>
+                      </div>
+                      <input type="submit" value="Send Message" class="submit-button">
+                  </form>
+              </div>
+          </div>
+    
+
+
+      
+  <!-- 
+    - #FOOTER
+  -->
+  <footer>
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">KK Talent</a>
+
+          <p class="footer-text">
+            Lorem ipsum dolor sit amet consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+          </p>
+
+         
+        </div>
+
+        
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="About.html" class="footer-link">About Company</a>
+          </li>
+
+          <li>
+            <a href="Institution.html" class="footer-link">Our Institutions</a>
+          </li>
+
+          <li>
+            <a href="Activities.html" class="footer-link">Activities</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Competitions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Latest News</a>
+          </li>
+
+          <li>
+            <a href="contactus.html" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+            <address class="contact-link address">
+              karungal,kanniyakumari,629157
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+7894631546876" class="contact-link">8148280650</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:info@hoolix.com" class="contact-link">KK talent</a>
+          </li>
+
+          <li class="footer-item">
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy;KK Talent | All Rights Reserved by <a href="#" class="copyright-link">SBJ</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+  </section>
+  </body>
+
+  
+ 
+   
+
+
+ 
+
+
+  
+   <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="main.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
